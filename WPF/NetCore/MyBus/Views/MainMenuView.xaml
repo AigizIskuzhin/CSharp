@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="MyBus.Views.MainMenuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyBus.Views"
+             xmlns:viewModels="clr-namespace:MyBus.ViewModels"
+             xmlns:data="clr-namespace:MyBus.Constants"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             d:DataContext="{d:DesignInstance viewModels:MainMenuViewModel}">
+    <Grid>  
+        <!--<StackPanel x:Name="NavigationList" HorizontalAlignment="Center">
+            <ItemsControl ItemsSource="{Binding NavigationList}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Content="{Binding Key}" 
+                                Command="{Binding ElementName=NavigationList, Path=DataContext.OpenViewCommand}" 
+                                CommandParameter="{Binding Value}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>-->
+        <Grid HorizontalAlignment="Center">
+            <ItemsControl Name="NavigationList" ItemsSource="{Binding GetNavigationButtons}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Name="NavigationButton"  Content="{Binding ShortName}"
+                                Command="{Binding ElementName=NavigationList, Path=DataContext.OpenViewCommand}" 
+                                CommandParameter="{Binding TargetViewType}"
+                                ToolTip="{Binding Description}">
+                        </Button>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Grid>
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+            <TextBlock Text="{DynamicResource TextLanguage}" 
+                       VerticalAlignment="Center"
+                       Margin="6 0 6 0"/>
+            <ComboBox ItemsSource="{x:Static data:ConstantData.Languages}"
+                      DisplayMemberPath="NativeName"
+                      SelectedValue="{Binding SelectedLanguage}"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

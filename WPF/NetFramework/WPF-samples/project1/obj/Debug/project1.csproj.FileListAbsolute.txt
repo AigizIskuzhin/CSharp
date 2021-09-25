@@ -1,0 +1,15 @@
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\bin\Debug\project1.exe.config
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\bin\Debug\project1.exe
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\bin\Debug\project1.pdb
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\project1.csproj.AssemblyReference.cache
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\MainWindow.g.cs
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\App.g.cs
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\project1_MarkupCompile.cache
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\project1_MarkupCompile.lref
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\MainWindow.baml
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\project1.g.resources
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\project1.Properties.Resources.resources
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\project1.csproj.GenerateResource.cache
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\project1.csproj.CoreCompileInputs.cache
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\project1.exe
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetFramework\WPF-samples\project1\obj\Debug\project1.pdb

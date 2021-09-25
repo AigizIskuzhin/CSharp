@@ -1,0 +1,20 @@
+﻿MyBus
+
+
+winexe
+C#
+.cs
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetCore\MyBus\obj\Release\net5.0-windows\
+MyBus
+none
+false
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
+C:\Users\Lord Eternal\OneDrive\CSharp\WPF\NetCore\MyBus\App.xaml
+20-1235232368
+
+691672480927
+227132888597
+Resources\Controls\Base\Controls.xaml;Resources\DataTemplates\ModelsToView.xaml;Resources\DataTemplates\ViewModelToView.xaml;Resources\Localization\lang.ru-RU.xaml;Resources\Localization\lang.xaml;Resources\Styles\Button.xaml;Resources\Styles\ComboBox.xaml;Resources\Styles\TextBox.xaml;Resources\ViewTemplates\ClientView.xaml;Views\ClientAccountView.xaml;Views\EditClientView.xaml;Views\EditWorkerView.xaml;Views\LoginFormView.xaml;Views\MainMenuView.xaml;Views\MainView.xaml;Views\RegistrationFormsView.xaml;Views\ReportConstructorView.xaml;Views\WelcomeView.xaml;Views\Windows\EditWindow.xaml;Views\Windows\MainWindow.xaml;
+
+False
+

@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:customControls="clr-namespace:MyBus.Resources.Controls">
+
+    <Style TargetType="TextBox"></Style>
+    <Style x:Key="MaskTextBox" BasedOn="{StaticResource {x:Type TextBox}}" TargetType="{x:Type customControls:MaskeddTextBox}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type customControls:MaskeddTextBox}">
+                    <TextBox Text="{TemplateBinding Text}">
+                        <TextBox.Background>
+                            <VisualBrush>
+                                <VisualBrush.Visual>
+                                    <TextBlock Text="{TemplateBinding MaskText}"/>
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </TextBox.Background>
+                    </TextBox>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

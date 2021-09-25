@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <!--WelcomeView-->
+    <v:String x:Key="WindowTitleLoc">My Bus</v:String>
+    <v:String x:Key="TextLanguage">App language</v:String>
+    <v:String x:Key="ClientLoc">Client</v:String>
+    <v:String x:Key="WorkerLoc">Worker</v:String>
+    <v:String x:Key="AdministratorLoc">Administrator</v:String>
+
+    <!--User fields-->
+    <v:String x:Key="IDLoc">ID</v:String>
+    <v:String x:Key="PhoneLoc">Phone</v:String>
+    <v:String x:Key="PasswordLoc">Password</v:String>
+    <v:String x:Key="NameLoc">Name</v:String>
+    <v:String x:Key="LevelLoc">Level</v:String>
+
+    <!--Client fields-->
+    <v:String x:Key="SurnameLoc">Surname</v:String>
+    <v:String x:Key="PatronymicLoc">Patronymic</v:String>
+    <v:String x:Key="BirthdayLoc">Birthday</v:String>
+
+    <!--Button texts-->
+    <v:String x:Key="BtnChangeLanguageLoc">English</v:String>
+    <v:String x:Key="BtnOpenAuthLoc">Authorization</v:String>
+    <v:String x:Key="BtnOpenRegFormsLoc">Registration forms</v:String>
+    <v:String x:Key="BtnBackLoc">Back</v:String>
+    <v:String x:Key="BtnAddLoc">Add</v:String>
+    <v:String x:Key="BtnEditLoc">Edit</v:String>
+    <v:String x:Key="BtnDeleteLoc">Delete</v:String>
+    <v:String x:Key="BtnSaveLoc">Save</v:String>
+    <v:String x:Key="BtnCancelLoc">Cancel</v:String>
+    <v:String x:Key="BtnExitLoc">Exit</v:String>
+    <v:String x:Key="BtnRestoreLoc">Restore</v:String>
+    <v:String x:Key="BtnCloseLoc">Close</v:String>
+    <v:String x:Key="BtnOpenAccountLoc">Account</v:String>
+
+</ResourceDictionary>

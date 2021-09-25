@@ -1,0 +1,17 @@
+﻿<Application x:Class="MyBus.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--#region Interface style -->
+                <ResourceDictionary Source="Resources/Styles/Button.xaml"/>
+                <ResourceDictionary Source="Resources/Styles/ComboBox.xaml"/>
+                <!--#endregion-->
+                <!--#region Interface localization -->
+                <ResourceDictionary Source="Resources/Localization/lang.xaml"/>
+                <!--#endregion-->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
